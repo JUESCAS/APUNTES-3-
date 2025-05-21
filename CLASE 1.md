@@ -71,6 +71,10 @@ $$Y(s) = \frac{\frac{4}{s}}{5s + 1}$$
 $$\lim_{s \to 0} sY(s) = \lim_{s \to 0} s \cdot \frac{\frac{4}{s}}{5s + 1}$$
 $$\lim_{s \to 0} \frac{4}{5s + 1} = 4$$
 
+💡**Ejemplo 7:** calcular los polos de la función
 
 $$G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^3 + 6s^2 + 11s + 6}$$
+
+💡**Ejemplo 8:** calcular los polos de la función
+
 $$G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^3 + 8s^2 + 15s}$$
