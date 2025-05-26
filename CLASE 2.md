@@ -2,6 +2,21 @@
 ## Modelos de sistemas complejos 
 ### Solenoide
 Un solenoide para la dinámica de sistemas es un actuador electromecánico que convierte una señal eléctrica en una fuerza mecánica lineal a través de un campo magnético generado por un transductor  que atrae o repele un émbolo ferromagnético; su comportamiento dinámico, caracterizado por la relación entre la entrada eléctrica voltaje o corriente y la salida mecánica fuerza mecanica que es proporcional a la corriente en e bobinado, el electroiman atrae una masa que es acoplada en el resorte cuyo amortiguamiento es dado por la envolvente de la bobina. 
+
+$$V_L + V_R = v(t)$$
+$$L \frac{di}{dt} + Ri = v(t)$$
+$$LsI(S) + RI(S) = V(S)$$
+$$I(S)(Ls + R) = V(S)$$
+$$I(S) = V(S) \frac{1}{Ls + R}$$
+$$\frac{I(S)}{V(S)} = \frac{1}{Ls + R}$$
+$$f_s = K_s I(S)$$
+$$\frac{f_s(S)}{I(S)} = K_s$$
+$$f(t) - Kx - b\dot{x} = m\ddot{x}$$
+$$F(S) - KX(S) - bSX(S) = mS^2 X(S)$$
+$$F(S) = X(S)(mS^2 + bS + K)$$
+$$X(S) = F(S) \frac{1}{mS^2 + bS + K}$$
+
+
 ### Motor DC
 Un motor de corriente continua (DC) es un actuador electromecánico que convierte energía eléctrica en energía mecánica rotacional mediante la interacción entre un campo magnético estático (generado por imanes permanentes o bobinas de campo) y un campo magnético rotatorio inducido por la corriente que fluye a través de las bobinas de la armadura; desde la perspectiva de la dinámica de sistemas, su funcionamiento se analiza mediante ecuaciones diferenciales que relacionan el voltaje de entrada con la corriente, el par motor y la velocidad angular, considerando parámetros como la resistencia y la inductancia de la armadura, la constante de par, la constante de fuerza contraelectromotriz y el momento de inercia y la fricción de la carga.
 #### Motor DC (corriente de campo)
