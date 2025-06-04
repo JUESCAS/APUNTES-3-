@@ -20,7 +20,7 @@
 <img src="build/EJ1.JPG"  width="300"/>
 Figura 8
 
-$$\text{Trayectoria directos}$$
+$$\text{Trayectoria directa$$
 $$P_1 = 1 * 1 * G_1 * G_2 * G_3 * 1 = G_1 G_2 G_3$$
 $$\text{Lazos cerrados}$$
 $$L_1 = G_1 G_2 H_1$$
@@ -36,11 +36,11 @@ $$\frac{C(s)}{R(s)} = \frac{P_1 \Delta_1}{\Delta} = \frac{G_1 G_2 G_3}{1 - G_1 G
 <img src="build/EJ2.JPG"  width="300"/>
 Figura 8
 
-$$\text{Ganancias de Trayectoria directa}$$
+$$\text{Trayectoria directa}$$
 $$P_1 = G_1 G_2 G_3 G_4 G_5$$
 $$P_2 = G_1 G_6 G_4 G_5$$
 $$P_3 = G_1 G_2 G_7$$
-$$\text{Ganancias de lazo}$$
+$$\text{Lazos cerradoP}$$
 $$L_1 = -G_4 H_1$$
 $$L_2 = -G_2 G_7 H_2$$
 $$L_3 = -G_6 G_4 G_5 H_2$$
