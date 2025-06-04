@@ -13,6 +13,27 @@
 ### 4.6 Ganancia de lazo 
 ## 5 Comparacion entre diagrama de bloques y diagrama flujo de señales 
 ## 6 Formula de Mason
+
+💡**Ejemplo 1:**  
+
+<img src="images/EJ1.JPG"  width="300"/>
+
+Figura 8
+
+💡**Ejemplo 2:** 
+
+<img src="images/EJ2.jpg"  width="300"/>
+
+Figura 8
+
+💡**Ejemplo 3:** 
+
+<img src="images/EJ3.jpg"  width="300"/>
+
+Figura 8
+
+
+
 ## 7. Ejercicios
 ### 📚Ejercicio 1
 ### 📚Ejercicio 2
