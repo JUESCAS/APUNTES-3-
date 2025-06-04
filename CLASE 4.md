@@ -16,22 +16,47 @@
 
 💡**Ejemplo 1:**  
 
-<img src="images/EJ1.JPG"  width="300"/>
 
+<img src="build/EJ1.JPG"  width="300"/>
 Figura 8
+
+$$\text{Trayectoria directos}$$
+$$P_1 = 1 * 1 * G_1 * G_2 * G_3 * 1 = G_1 G_2 G_3$$
+$$\text{Lazos cerrados}$$
+$$L_1 = G_1 G_2 H_1$$
+$$L_2 = -G_2 G_3 H_2$$
+$$L_3 = -G_1 G_2 G_3$$
+$$\Delta = 1 - (L_1 + L_2 + L_3) \quad \$$
+$$\Delta_1 = 1 \quad \text{Cofactores}$$
+$$\frac{C(s)}{R(s)} = \frac{P_1 \Delta_1}{\Delta} = \frac{G_1 G_2 G_3}{1 - G_1 G_2 H_1 + G_2 G_3 H_2 + G_1 G_2 G_3}$$
+
 
 💡**Ejemplo 2:** 
 
-<img src="images/EJ2.jpg"  width="300"/>
-
+<img src="build/EJ2.JPG"  width="300"/>
 Figura 8
+
+$$\text{Ganancias de Trayectoria directa}$$
+$$P_1 = G_1 G_2 G_3 G_4 G_5$$
+$$P_2 = G_1 G_6 G_4 G_5$$
+$$P_3 = G_1 G_2 G_7$$
+$$\text{Ganancias de lazo}$$
+$$L_1 = -G_4 H_1$$
+$$L_2 = -G_2 G_7 H_2$$
+$$L_3 = -G_6 G_4 G_5 H_2$$
+$$L_4 = -G_2 G_3 G_4 G_5 H_2$$
+$$\text{Determinante}$$
+$$\Delta = 1 - (L_1 + L_2 + L_3 + L_4) + L_1 L_2$$
+$$\Delta_1 = 1$$
+$$\Delta_2 = 1$$
+$$\Delta_3 = 1 - L_1$$
+$$\frac{C(s)}{R(s)} = \frac{G_1 G_2 G_3 G_4 G_5 + G_1 G_6 G_4 G_5 + G_1 G_2 G_7 (1 + G_4 H_1)}{1 + G_4 H_1 + G_2 G_7 H_2 + G_6 G_4 G_5 H_2 + G_2 G_3 G_4 G_5 H_2 + G_4 H_1 G_2 G_7 H_2}$$
 
 💡**Ejemplo 3:** 
 
-<img src="images/EJ3.jpg"  width="300"/>
+<img src="build/EJ3.JPG"  width="330"/>
 
 Figura 8
-
 
 
 ## 7. Ejercicios
