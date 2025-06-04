@@ -13,5 +13,7 @@
 ### 4.6 Ganancia de lazo 
 ## 5 Comparacion entre diagrama de bloques y diagrama flujo de señales 
 ## 6 Formula de Mason
-##  Formula de Mason
+## 7. Ejercicios
+### 📚Ejercicio 1
+### 📚Ejercicio 2
 
