@@ -16,4 +16,15 @@
 ## 7. Ejercicios
 ### 📚Ejercicio 1
 ### 📚Ejercicio 2
+## 8. Conclusiones
 
+El modelo de sistemas hidraulicos es uno de los mas versatiles ya que permite modelar modelar cada tanque de manera independiente segun la variable que se requiera, y despues buscar una incognita que me permita relacionar todos los sistemas en funcion de construir un modelo en general. Una vez diseñado o en operación, los modelos permiten predecir y analizar el rendimiento del sistema ante diferentes cargas, perturbaciones o cambios en los parámetros. Esto ayuda a comprender el comportamiento dinámico, identificar posibles cuellos de botella, evaluar la eficiencia y prever la respuesta ante situaciones inesperadas.
+
+## 9. Bibliografia 
+
+[ChatGPT] (https://openai.com/chatgpt)
+
+[Katsuhiko Ogata] (dinamica de sistemas.PHH prentice Hall)
+
+
+[Lidefer] (https://fjferrer.webs.ull.es/Apuntes3/Leccion01/15_dinmica_de_los_sistemas_mecanicos.html)
