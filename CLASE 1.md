@@ -78,3 +78,15 @@ $$G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^3 + 6s^2 + 11s + 6}$$
 💡**Ejemplo 8:** calcular los polos de la función
 
 $$G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^3 + 8s^2 + 15s}$$
+
+## 7. Ejercicios
+### 📚Ejercicio 1
+### 📚Ejercicio 2
+## 8. Conclusiones
+## 9. Bibliografia 
+
+[ChatGPT] (https://openai.com/chatgpt)
+
+[Katsuhiko Ogata] (dinamica de sistemas.PHH prentice Hall)
+
+[Lidefer] (https://fjferrer.webs.ull.es/Apuntes3/Leccion01/15_dinmica_de_los_sistemas_mecanicos.html)
