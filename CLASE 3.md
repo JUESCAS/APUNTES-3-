@@ -24,19 +24,35 @@ Los puntos de ramificación son simples puntos en una línea de señal donde la 
 La reducción del diagrama de bloques es un proceso sistemático para simplificar un diagrama de bloques complejo en una forma equivalente más sencilla, idealmente un solo bloque que represente la función de transferencia global del sistema. Esta simplificación es crucial para el análisis y diseño de sistemas de control, ya que permite determinar fácilmente la relación entre la entrada y la salida del sistema completo sin necesidad de considerar cada componente individualmente. La clave de la reducción es aplicar una serie de reglas algebraicas para combinar, mover y eliminar los elementos del diagrama.
 ### Proceso de Reducción
 
-Identificar configuraciones estándar: Buscar bloques en serie, en paralelo o lazos de retroalimentación.
+**Identificar configuraciones estándar** Buscar bloques en serie, en paralelo o lazos de retroalimentación.
 
-Aplicar reglas de simplificación: Reducir las configuraciones identificadas a un solo bloque.
+**Aplicar reglas de simplificación** Reducir las configuraciones identificadas a un solo bloque.
 
-Reorganizar el diagrama: Mover puntos de suma o de ramificación si es necesario para crear nuevas configuraciones estándar que puedan ser simplificadas.
+**Reorganizar el diagrama** Mover puntos de suma o de ramificación si es necesario para crear nuevas configuraciones estándar que puedan ser simplificadas.
 
-Repetir: Continuar los pasos 1 a 3 hasta que el diagrama se reduzca a un solo bloque que represente la función de transferencia global del sistema, relacionando la salida principal con la entrada principal.
+**Repetir** Continuar los pasos 1 a 3 hasta que el diagrama se reduzca a un solo bloque que represente la función de transferencia global del sistema, relacionando la salida principal con la entrada principal.
 
 ### Bloques en cascada 
-### Bloques en paralelo}
+
+Cuando dos o más bloques están conectados en serie, significa que la salida de un bloque se convierte directamente en la entrada del siguiente. Para simplificar esta configuración, se pueden reemplazar todos los bloques en serie por un único bloque cuya función de transferencia es el producto de las funciones de transferencia individuales de cada bloque. Esto refleja que el efecto acumulativo de varios procesos secuenciales es equivalente a un solo proceso que combina todas sus transformaciones.
+
+### Bloques en paralelo
+
+Los bloques en paralelo ocurren cuando múltiples bloques reciben la misma señal de entrada y sus salidas se suman (o restan) en un único punto de suma. Para reducir esta disposición, todos los bloques en paralelo se pueden reemplazar por un solo bloque cuya función de transferencia es la suma algebraica de las funciones de transferencia individuales. El signo en el punto de suma determinará si se suman o restan las funciones de transferencia, lo que representa cómo las distintas "vías" de procesamiento contribuyen al resultado final.
+
 ### Lazo de Retroalimentación
-### Movimiento de Puntos de Suma:
-### Movimiento de Puntos de Ramificación:
+
+El lazo de retroalimentación es una de las configuraciones más importantes en control, donde la salida de un sistema se "retroalimenta" para influir en su propia entrada. Este lazo, que típicamente consta de un bloque en la trayectoria directa (G(s)) y un bloque en la trayectoria de retroalimentación (H(s)) que se conecta a un punto de suma para comparar la señal de entrada con la salida, se puede reducir a un único bloque. La función de transferencia de este bloque equivalente es  
+
+Donde el signo en el denominador depende de si la retroalimentación es negativa (se resta la señal) o positiva (se suma la señal) en el punto de suma
+
+### Movimiento de Puntos de Suma
+
+La reubicación de un punto de suma es una técnica útil para reorganizar el diagrama y permitir nuevas simplificaciones. Si se necesita mover un punto de suma después de un bloque, las señales que originalmente se sumaban antes del bloque deben ser multiplicadas por la función de transferencia de ese bloque para compensar el cambio y mantener la equivalencia de la señal. Por el contrario, si un punto de suma se mueve antes de un bloque, las señales que se sumaban después del bloque deben ser divididas por la función de transferencia de ese bloque para asegurar que la señal final sea la misma.
+
+### Movimiento de Puntos de Ramificación
+
+Mover un punto de ramificación también es clave para reestructurar el diagrama. Si un punto de ramificación se mueve después de un bloque, se debe insertar un bloque adicional con la función de transferencia inversa (1/G(s)) en la rama donde se originó la señal para asegurar que la señal en esa rama se mantenga idéntica a la original. Si, por otro lado, un punto de ramificación se mueve antes de un bloque, entonces se debe insertar un bloque con la función de transferencia del bloque original (G(s)) en la rama para asegurar la equivalencia de la señal transmitida.
 
 ## Propiedades
 
