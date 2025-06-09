@@ -94,6 +94,18 @@ Un sistema térmico en dinámica de sistemas se modela por bloques representando
 
 $$G(s) = \frac{T(s)}{Q_{in}(s)} = \frac{1/C}{s + 1/RC}$$
 
+## 7. Ejercicios
+### 📚Ejercicio 1
+### 📚Ejercicio 2
+## 8. Conclusiones
+## 9. Bibliografia 
+
+[ChatGPT] (https://openai.com/chatgpt)
+
+[Katsuhiko Ogata] (dinamica de sistemas.PHH prentice Hall)
+
+
+[Lidefer] (https://fjferrer.webs.ull.es/Apuntes3/Leccion01/15_dinmica_de_los_sistemas_mecanicos.html)
 
 
 
