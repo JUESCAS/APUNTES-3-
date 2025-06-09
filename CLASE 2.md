@@ -22,8 +22,8 @@ Un motor de corriente continua (DC) es un actuador electromecánico que conviert
 #### Motor DC (corriente de campo)
 El modelado de un motor DC desde la corriente de campo se centra en cómo la variación de la corriente que circula por las bobinas del campo magnético afecta el rendimiento del motor, especialmente el par motor y la velocidad; en este enfoque, la corriente de armadura se considera generalmente controlada o constante, y la dinámica del sistema se describe principalmente por la relación entre la corriente de campo y el flujo magnético generado, el cual a su vez influye directamente en la constante de par y la constante de fuerza contraelectromotriz del motor.
 
-$$L_c \frac{di_c}{dt} + R_c i_c = v_c(t)$$
 
+$$L_c \frac{di_c}{dt} + R_c i_c = v_c(t)$$
 $$I_c(s) = V_c(s) \frac{1}{(sL_c + R_c)}$$
 $$\Phi = K_c i_c$$
 $$T_m = K_a i_a(t) K_c i_c(t)$$
@@ -33,8 +33,10 @@ $$J \frac{d^2\theta}{dt^2} + b \frac{d\theta}{dt} + k\theta = \tau(t)$$
 $$\Theta(s) = T_c(s) \frac{1}{(s^2 J + bs)}$$
 $$\Theta(s) = V_c(s) \frac{K_m}{(s L_c + R_c)(J s^2 + bs)} - T_p(s) \frac{1}{(J s^2 + bs)}$$
 $$\frac{\Theta(s)}{V_c(s)} = \frac{K_m}{(s L_c + R_c)(J s^2 + bs)}$$
+
 #### Motor DC (corriente de armadura)
 El modelado de un motor DC desde la corriente de armadura se enfoca en cómo la variación de la corriente que fluye a través de las bobinas del rotor (armadura) afecta directamente el par motor y, consecuentemente, la velocidad angular; en este enfoque, el flujo magnético generado por la corriente de campo se considera constante (típicamente proporcionado por imanes permanentes o una excitación de campo fija), y la dinámica del sistema se describe primordialmente por la relación entre el voltaje aplicado a la armadura y la corriente resultante, el par motor producido (proporcional a la corriente de armadura) y la velocidad angular del rotor.
+
 $$T_m(s) = (K_a K_c I_c) I_a(s) = K_m I_a(s)$$
 $$V_a(s) = (s L_a + R_a) I_a(s) + V_b(s)$$
 $$V_a(s) = (s L_a + R_a) I_a(s) + V_b(s)$$
@@ -42,6 +44,7 @@ $$V_b(s) = K_b \omega(s)$$
 $$I_a(s) = \frac{V_a(s) - K_b \omega(s)}{s L_a + R_a}$$
 $$T_c(s) = T_m(s) - T_p(s)$$
 $$\Theta(s) = T_c(s) \frac{1}{(s^2 J + bs)}$$
+
 ## Elementos transmisores de energía 
 ### Engranajes y poleas 
 Un sistema de engranajes y poleas, en dinámica de sistemas, es un subsistema mecánico que transmite y modifica movimiento rotacional y par mediante la interconexión de cuerpos rígidos con relaciones de transmisión definidas por sus dimensiones; su modelado implica considerar la transformación de velocidad y par, la inercia equivalente referida a un eje.
