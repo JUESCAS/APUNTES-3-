@@ -1,10 +1,11 @@
 # Función de transferencia 
-## Función de transferencia 
-la función de transferencia es una representación matemática en el dominio de la frecuencia obtenida mediante la transformada de Laplace para sistemas continuos o la transformada Z para sistemas discretos que describe la relación entre la salida de un sistema lineal e invariante en el tiempo LTI y su entrada, bajo la suposición de condiciones iniciales cero. En esencia, codifica la dinámica del sistema y cómo este modifica una señal de entrada para producir una señal de salida, facilitando el análisis del comportamiento del sistema, su estabilidad y su diseño de control.
+## Definición
+>🔑 La función de transferencia es una representación matemática en el dominio de la frecuencia, obtenida mediante la transformada de Laplace para sistemas continuos, o la transformada Z para sistemas discretos, que describe la relación entre la salida de un sistema lineal e invariante en el tiempo LTI y su entrada, bajo la suposición de condiciones iniciales cero. En esencia, codifica la dinámica del sistema y cómo este modifica una señal de entrada para producir una señal de salida, facilitando el análisis del comportamiento del sistema, su estabilidad y su diseño de control.
 ## Clasificación de las funciones de transferencia
-Las funciones de transferencia en dinámica de sistemas se pueden clasificar de diversas maneras, atendiendo a diferentes criterios en este caso basandose por la presencia de ceros y polos
+Las funciones de transferencia en dinámica de sistemas se pueden clasificar de diversas maneras, atendiendo a diferentes criterios en este caso basandose por la presencia de zeros y polos.
 ### Función de Transferencia Propia
 El grado del polinomio del denominador es mayor o igual al grado del polinomio del numerador. Estos sistemas son físicamente realizables.
+$$\fraq{N(s)}{D(s)}$
 ### Función de Transferencia Estrictamente Propia
 El grado del polinomio del denominador es estrictamente mayor que el grado del polinomio del numerador. La salida no depende directamente de la entrada actual.
 ### Función de Transferencia Impropia
