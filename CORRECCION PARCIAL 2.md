@@ -1,4 +1,4 @@
-# Correccion segundo parcial 
+# Corrección segundo parcial 
 #### Julián Castro, Leslie Rodriguez
 $$\begin{align}
 i_1 + i_2 + i_3 = 0 \\
