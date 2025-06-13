@@ -77,7 +77,13 @@ Mover un punto de ramificación también es clave para reestructurar el diagrama
 <img src="build/E25.JPG"  width="300"/>
 
 ## 8. Conclusiones
+El álgebra de bloques es una herramienta fundamental para simplificar sistemas de control representados mediante diagramas de bloques, permitiendo reducir múltiples componentes interconectados a una única función de transferencia equivalente.
 
+Las reglas de reducción de bloques —como la combinación en serie, paralelo, retroalimentación y movimiento de ramas— permiten transformar un diagrama complejo en una representación más simple y manejable, facilitando el análisis del sistema.
+
+La correcta aplicación de estas reglas requiere precisión en la identificación de entradas, salidas y lazos de realimentación, así como una adecuada interpretación de la dirección del flujo de señal.
+
+Una simplificación incorrecta puede alterar completamente el comportamiento dinámico del sistema, por lo tanto, es fundamental aplicar el álgebra de bloques con rigor y seguir un procedimiento ordenado.
 ## 9. Bibliografia 
 
 [ChatGPT] (https://openai.com/chatgpt)
