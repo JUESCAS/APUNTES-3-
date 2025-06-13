@@ -1,4 +1,5 @@
 # Modelamiento de sistemas con diagramas de bloques 
+#### Julián Castro, Leslie Rodriguez
 ## Modelos de sistemas complejos 
 ### Solenoide
 Un solenoide para la dinámica de sistemas es un actuador electromecánico que convierte una señal eléctrica en una fuerza mecánica lineal a través de un campo magnético generado por un transductor  que atrae o repele un émbolo ferromagnético; su comportamiento dinámico, caracterizado por la relación entre la entrada eléctrica voltaje o corriente y la salida mecánica fuerza mecanica que es proporcional a la corriente en e bobinado, el electroiman atrae una masa que es acoplada en el resorte cuyo amortiguamiento es dado por la envolvente de la bobina. 
