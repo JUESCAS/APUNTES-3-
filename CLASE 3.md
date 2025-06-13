@@ -1,5 +1,5 @@
-
 # Algebra de bloques
+#### Julián Castro, Leslie Rodriguez
 Cuando hablamos del álgebra de bloques en el contexto de la dinámica de sistemas y, específicamente, del primer sistema de control de James Watt, es importante aclarar que Watt no utilizó "álgebra de bloques" en el sentido moderno de la teoría de control si no que buscaba simplificar la interpretacion de su sistema de control para su máquina de vapor, conocido como el regulador centrífugo que fue un hito fundamental en la historia de la ingeniería y el control automático, desarrollado alrededor de 1788. Aunque Watt no lo diseñó usando diagramas de bloques ni álgebra de bloques, su invención encarna los principios de un sistema de control de lazo cerrado o retroalimentado, que es precisamente lo que el álgebra de bloques busca modelar y simplificar.
 ## Algebra de bloques
 El Álgebra de Bloques es un conjunto de reglas y técnicas gráficas y matemáticas utilizadas principalmente en la ingeniería de control y la dinámica de sistemas para simplificar y analizar la relación entre las entradas y salidas de un sistema complejo. Imagina un sistema, como una máquina o un proceso, que está compuesto por varias partes que interactúan entre sí. El álgebra de bloques nos permite representar estas partes y sus interconexiones de una manera visual y sistemática.
