@@ -111,7 +111,15 @@ $$\frac{E_0}{E_1} = \frac{G_1 G_2 G_3 G_4}{1 + G_1 G_2 + G_2 G_3 + G_3 G_4}$$
 ### 📚Ejercicio 2
 ## 8. Conclusiones
 
-El modelo de sistemas hidraulicos es uno de los mas versatiles ya que permite modelar modelar cada tanque de manera independiente segun la variable que se requiera, y despues buscar una incognita que me permita relacionar todos los sistemas en funcion de construir un modelo en general. Una vez diseñado o en operación, los modelos permiten predecir y analizar el rendimiento del sistema ante diferentes cargas, perturbaciones o cambios en los parámetros. Esto ayuda a comprender el comportamiento dinámico, identificar posibles cuellos de botella, evaluar la eficiencia y prever la respuesta ante situaciones inesperadas.
+Los diagramas de flujo de señal permiten representar sistemas dinámicos complejos de forma estructurada y visual, facilitando la comprensión de las relaciones entre variables internas y externas. Estos diagramas son equivalentes funcionalmente a los diagramas de bloques, pero ofrecen una mayor flexibilidad para representar múltiples caminos y lazos de retroalimentación, lo que resulta especialmente útil en sistemas con múltiples señales internas.
+
+A través del teorema de Mason, es posible hallar la función de transferencia entre cualquier par de nodos (entrada y salida) del sistema, incluso en presencia de múltiples lazos y trayectorias paralelas.
+
+Una de las principales ventajas del método es que, una vez formulado correctamente, el análisis se reduce a cálculos algebraicos sistemáticos, lo que facilita su implementación en herramientas computacionales y su comparación con modelos obtenidos por otras metodologías.
+
+Finalmente, el estudio conjunto de diagramas de bloques y diagramas de flujo de señal permite una visión integral del sistema, y su correcta aplicación mejora la capacidad de análisis, diseño y validación de sistemas de control lineales.
+
+
 
 ## 9. Bibliografia 
 
