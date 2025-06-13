@@ -3,18 +3,21 @@
 ## Definición
 >🔑 La función de transferencia es una representación matemática en el dominio de la frecuencia, obtenida mediante la transformada de Laplace para sistemas continuos, o la transformada Z para sistemas discretos, que describe la relación entre la salida de un sistema lineal e invariante en el tiempo LTI y su entrada, bajo la suposición de condiciones iniciales cero. En esencia, codifica la dinámica del sistema y cómo este modifica una señal de entrada para producir una señal de salida, facilitando el análisis del comportamiento del sistema, su estabilidad y su diseño de control.
 ## Clasificación de las funciones de transferencia
-Las funciones de transferencia en dinámica de sistemas se pueden clasificar de diversas maneras, atendiendo a diferentes criterios en este caso basandose por la presencia de zeros y polos. $$\frac{N(s)}{D(s)}=\frac{Salida}{Entrada}$
+Las funciones de transferencia en dinámica de sistemas se pueden clasificar de diversas maneras, atendiendo a diferentes criterios en este caso basandose por la presencia de zeros y polos. $$\frac{N(s)}{D(s)}=\frac{Salida}{Entrada}$$
 ### Función de Transferencia biropia
 El grado del polinomio del denominador es mayor o igual al grado del polinomio del numerador. Estos sistemas son físicamente realizables.
 
 Si se llama $n$ al grado del polinomio de $N(s)$ y $m$ al grado del polinomi $D(s)$, una función de transferencia estrictamente propia tendría la siguiente condición:
+
 $$n=m$$
 ### Función de Transferencia Estrictamente Propia
 El grado del polinomio del denominador es estrictamente mayor que el grado del polinomio del numerador. La salida no depende directamente de la entrada actual. Si se llama $n$ al grado del polinomio de $N(s)$ y $m$ al grado del polinomi $D(s)$, una función de transferencia estrictamente propia tendría la siguiente condición:
+
 $$m>n$$
 ### Función de Transferencia Impropia
 El grado del polinomio del numerador es mayor que el grado del polinomio del denominador. Estos sistemas no son físicamente realizables en su forma pura, aunque pueden aparecer como aproximaciones.
 i se llama $n$ al grado del polinomio de $N(s)$ y $m$ al grado del polinomi $D(s)$, una función de transferenciaimpropia tendría la siguiente condición:
+
 $$n>m$$
 💡**Ejemplo 1:** clasificar las siguientes funciones 
 
