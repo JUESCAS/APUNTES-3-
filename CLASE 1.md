@@ -1,4 +1,5 @@
 # Función de transferencia 
+#### Julián Castro, Leslie Rodriguez
 ## Definición
 >🔑 La función de transferencia es una representación matemática en el dominio de la frecuencia, obtenida mediante la transformada de Laplace para sistemas continuos, o la transformada Z para sistemas discretos, que describe la relación entre la salida de un sistema lineal e invariante en el tiempo LTI y su entrada, bajo la suposición de condiciones iniciales cero. En esencia, codifica la dinámica del sistema y cómo este modifica una señal de entrada para producir una señal de salida, facilitando el análisis del comportamiento del sistema, su estabilidad y su diseño de control.
 ## Clasificación de las funciones de transferencia
