@@ -1,4 +1,5 @@
-## Correccion del parcial 
+# Correccion segundo parcial 
+#### Julián Castro, Leslie Rodriguez
 $$\begin{align}
 i_1 + i_2 + i_3 = 0 \\
 i_1 - 0.2 \frac{dv_c}{dt} + \frac{v_x}{50} = 0 \\
