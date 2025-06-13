@@ -83,7 +83,47 @@ $$G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^3 + 8s^2 + 15s}$$
 
 ## 7. Ejercicios
 ### 📚Ejercicio 1
+Dada la siguiente función de transferencia, determine los zeros y los polos:
+
+$$
+G(s) = \frac{5(s + 3)}{s^2 + 4s + 3}
+$$
+
+
+$$
+5(s + 3) = 0 \Rightarrow s = -3
+$$
+
+✅ **Zeros**: \( s = -3 \)
+
+$$
+s^2 + 4s + 3 = 0 \Rightarrow (s + 1)(s + 3) = 0 \Rightarrow s = -1,\ -3
+$$
+
+✅ **Polos**: \( s = -1,\ s = -3 \)
+ 
 ### 📚Ejercicio 2
+Sea la función de transferencia:
+
+$$
+G(s) = \frac{10(s + 2)}{s(s + 5)(s + 1)}
+$$
+
+Determine los polos y los zeros.
+
+$$
+10(s + 2) = 0 \Rightarrow s = -2
+$$
+
+✅ **Zeros**: \( s = -2 \)
+
+
+$$
+s(s + 5)(s + 1) = 0 \Rightarrow s = 0,\ -5,\ -1
+$$
+
+✅ **Polos**: \( s = 0,\ s = -1,\ s = -5 \)
+
 ## 8. Conclusiones
 La función de transferencia es una herramienta fundamental en el análisis y diseño de sistemas dinámicos, ya que permite describir la relación entre la salida y la entrada de un sistema lineal en el dominio de Laplace (dominio (s)).
 
