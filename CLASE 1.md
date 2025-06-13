@@ -84,6 +84,12 @@ $$G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^3 + 8s^2 + 15s}$$
 ### 📚Ejercicio 1
 ### 📚Ejercicio 2
 ## 8. Conclusiones
+La función de transferencia es una herramienta fundamental en el análisis y diseño de sistemas dinámicos, ya que permite describir la relación entre la salida y la entrada de un sistema lineal en el dominio de Laplace (dominio (s)).
+
+Para obtener una función de transferencia correcta, es indispensable identificar claramente cuál es la entrada y cuál es la salida del sistema, ya que esto define el comportamiento que se desea modelar o controlar.
+
+Trabajar en el dominio de Laplace simplifica la resolución de ecuaciones diferenciales, permitiendo convertir derivadas e integrales en operaciones algebraicas y facilitar así el análisis de sistemas complejos.
+
 ## 9. Bibliografia 
 
 [ChatGPT] (https://openai.com/chatgpt)
