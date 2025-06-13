@@ -1,5 +1,6 @@
 # Diagrama de flujo de señales
-## 1 Diagrama de flujo de señales
+#### Julián Castro, Leslie Rodriguez
+## 1. Diagrama de flujo de señales
 En dinámica de sistemas, un diagrama de flujo de señales es una representación gráfica que ilustra las relaciones de causa y efecto entre las variables de un sistema. Utiliza nodos para representar variables y flechas direccionales (ramas) para indicar la transmisión de señales entre ellas, con ganancias asociadas a cada rama que denotan la intensidad y el signo de la influencia. Es una herramienta poderosa para analizar y visualizar sistemas complejos, permitiendo derivar funciones de transferencia y comprender el comportamiento dinámico sin necesidad de escribir ecuaciones explícitas de cada componente individual.
 ## 2 Elementos de los diagramas de flujo
 ### 2.1 Nodo
