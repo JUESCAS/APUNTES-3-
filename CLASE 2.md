@@ -101,6 +101,10 @@ $$G(s) = \frac{T(s)}{Q_{in}(s)} = \frac{1/C}{s + 1/RC}$$
 ### 📚Ejercicio 1
 ### 📚Ejercicio 2
 ## 8. Conclusiones
+El uso de diagramas de bloques facilita el modelado de sistemas complejos, ya que permite representar gráficamente las relaciones funcionales entre los componentes del sistema, evitando la manipulación directa de ecuaciones diferenciales complejas. A diferencia del enfoque puramente matemático, los diagramas de bloques brindan una visión modular del sistema, en la que cada bloque representa una función de transferencia específica, simplificando así el análisis, la simulación y el diseño del sistema.
+
+Para construir correctamente un diagrama de bloques, es fundamental definir con claridad la entrada y la salida del sistema, ya que esto determina la dirección del flujo de señal y el comportamiento global del modelo.
+
 ## 9. Bibliografia 
 
 [ChatGPT] (https://openai.com/chatgpt)
