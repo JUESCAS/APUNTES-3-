@@ -118,9 +118,13 @@ $$G(s) = \frac{T(s)}{Q_{in}(s)} = \frac{1/C}{s + 1/RC}$$
 
 ## 7. Ejercicios
 ### 📚Ejercicio 1
-<img src="build/sistemaej.PNG"  width="300"/>
-<img src="build/E12.JPG"  width="300"/>
-<img src="build/E13.JPG"  width="300"/>
+<img src="build/sistemaej1.PNG"  width="300"/>
+<img src="build/sistemaej1a.PNG"  width="300"/>
+<img src="build/sistemaej1b.PNG"  width="300"/>
+<img src="build/sistemaej1c.PNG"  width="300"/>
+<img src="build/sistemaej1d.PNG"  width="300"/>
+<img src="build/sistemaej1e.PNG"  width="300"/>
+
 
 ### 📚Ejercicio 2
 ## 8. Conclusiones
